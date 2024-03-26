@@ -26,8 +26,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	width: 100vw;
-	height: 100vh;
+	width: 85.375em;
+	height: 48em;
 	background-color: #EBE2C6;
 	font-family: 'Roboto', sans-serif;
 }
@@ -50,14 +50,14 @@ table {
 
 .containerImg{
 	position: absolute;
-	top: 35px;
-	left: 75px;
+	top: 2.1875em;
+	left: 4.6875em;
 }
 
 
 .containerImg h1 img{
-	width: 100px;
-	height: 100px;
+	width: 6.25em;
+	height: 6.25em;
 }
 
 .container{
@@ -65,7 +65,7 @@ table {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding-top: 70px;
+	padding-top: 4.375em;
 	overflow: hidden;
 	
 }
@@ -79,12 +79,12 @@ table {
 }
 
 .atras img{
-	width: 60px;	
+	width: 3.75em;	
 	cursor: pointer;
 }
 
 .adelante img{
-	width: 60px;
+	width: 3.75em;
 	cursor: pointer;
 }
 
@@ -97,11 +97,11 @@ table {
 
 .img{
 	position: relative;
-	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
-	height: 500px;
-	width: 900px;
-	border-radius: 15px;
-	margin: 5px;
+	box-shadow: 0em 0.25em 0.625em 0em rgba(0, 0, 0, 0.85);
+	height: 31.25em;
+	width: 56.25em;
+	border-radius: 0.9375rem;
+	margin: 0.3125rem;
 	object-fit: cover;
 	filter: saturate(175%);
 	display: flex;
@@ -110,63 +110,63 @@ table {
 }
 
 .img img{
-	margin-right: 10px;
-	height: 480px;
-	width: 500px;	
+	margin-right: 0.625rem;
+	height: 30rem;
+	width: 31.25rem;	
 	filter: saturate(40%);
 }
 
 .texto{
 	overflow: hidden;
 	position: absolute;
-	right: 750px;
+	right: 45.875rem;
 	flex-direction: column;
-	transform: translateY(200px);
-	margin-top: 10px;
-	backdrop-filter: blur(20px);
+	transform: translateY(12.5em);
+	margin-top: 0.625rem;
+	backdrop-filter: blur(1.25em);
 	background-color: rgba(241, 85, 84, 0.21);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-radius: 30px;
+	border-radius: 1.875em;
 }
 
 
 .texto h2{
-	text-shadow: 0px 0px 15px black;
-	padding-top: 40px;
+	text-shadow: 0rem 0rem 0.9375rem black;
+	padding-top: 2.5rem;
 	color: rgb(255, 255, 255);
 	font-weight: 300;
-	font-size: 27px;
+	font-size: 1.6875rem;
 }
 
 .texto p{
 	align-items: center;
-	padding: 20px;
+	padding: 1.25rem;
 	color: rgb(255, 255, 255);
-	font-size: 0px;
+	font-size: 0rem;
 	font-weight: 300;
 }
 
 .imagens .texto{
-	width: 380px;
-	height: 80px;
+	width: 23.75rem;
+	height: 5rem;
 	transition: 1s;
 }
 
 .imagens:hover .texto{
 	transition: height 1s, transform 1s, background-color 1s;
-	transform: translateY(18px);
-	height: 450px;
+	transform: translateY(1.125rem);
+	height: 28.125rem;
 	background-color: rgba(241, 85, 84, 0.21);
 	cursor: pointer;
 }
 
 .imagens:hover .texto p{
 	transition: font-size 0s .2s linear;
-	font-size: 23px;
+	font-size: 1.4375rem;
 	font-weight: 300;
-	text-shadow: 0px 0px 10px #000000;
+	text-shadow: 0rem 0rem 0.625rem #000000;
 	cursor: pointer;
 }
 
@@ -178,16 +178,16 @@ table {
 }
 
 .puntos p{
-    font-size: 100px;
+    font-size: 6.25rem;
     font-weight: 500;
-    margin-top: -50px;
+    margin-top: -3.125rem;
     color: black;
 }
 
 .puntos .bold{
     font-weight: 700;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
     color: #44318D ;
 }
 
