@@ -1,26 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@media screen and (max-width: 85.375em) {
-	body {
-	  width: 100%; /* Cambia el ancho del cuerpo al 100% para adaptarse al ancho de la pantalla */
-	  padding: 0 1em; /* Añade un espacio alrededor del cuerpo para evitar que el contenido se pegue a los bordes */
-	}
-  
-	.containerImg {
-	  position: relative; /* Cambia la posición a relativa para que la imagen no se superponga en pantallas pequeñas */
-	  top: auto; /* Elimina la posición superior para que la imagen se coloque en su lugar por defecto */
-	  left: auto; /* Elimina la posición izquierda para que la imagen se coloque en su lugar por defecto */
-	  margin-top: 2.1875em; /* Añade un margen superior para separar la imagen del borde superior */
-	  margin-left: auto; /* Centra la imagen horizontalmente */
-	  margin-right: auto; /* Centra la imagen horizontalmente */
-	}
-  
-	.containerImg h1 img {
-	  width: 100%; /* Haz que la imagen ocupe todo el ancho disponible */
-	  height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
-	}
-  
-	/* Añade reglas de medios para los elementos que necesitan ajustes en pantallas pequeñas */
-  }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

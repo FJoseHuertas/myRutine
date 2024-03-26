@@ -1,5 +1,11 @@
 let eventoClick = [
     {
+        "imgLogo": "img/logo-sena-verde.png",
+        "titulo": "Hello!",
+        "parrafo": "It is nice to meet you. My name is Francisco Huertas. I am 28 years old. I am a student of Engineering Physics at the University of Cauca. I am from Nariño. I live in Popayán, Cauca, with my girlfriend, and we have a white cat. Its name is Crystal. I like watching series and movies. I like listening to music. Thanks.",
+        "imgFondo": "img/logo-sena-verde.png",
+    },
+    {
         "imgLogo": "img/reloj1.png",
         "titulo": "What time is it?",
         "parrafo": "It's twenty to six. It is my time to wake up. I check my Twitter, and e-mail. I get up, and I give food to our cat.",
