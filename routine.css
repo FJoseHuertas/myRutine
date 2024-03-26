@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @media screen and (max-width: 85.375em) {
   body {
     width: 100%; /* Cambia el ancho del cuerpo al 100% para adaptarse al ancho de la pantalla */
@@ -20,8 +21,6 @@
 
   /* Añade reglas de medios para los elementos que necesitan ajustes en pantallas pequeñas */
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
